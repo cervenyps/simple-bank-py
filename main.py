@@ -1,8 +1,8 @@
-from atm import ATM
+from banco import Banco
 
 def main():
-    atm = ATM()
-    atm.run()
+    banco = Banco()
+    banco.menu()
 
 if __name__ == "__main__":
     main()
